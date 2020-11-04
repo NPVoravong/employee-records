@@ -1,0 +1,34 @@
+dept_manager
+-
+emp_num INT PK FK - employees.emp_num
+dept_num VARCHAR PK FK - departments.dept_num
+
+dept_emp
+-
+dept_num VARCHAR PK FK - departments.dept_num
+emp_num VARCHAR PK FK - employees.emp_num
+
+employees
+-
+emp_num INT PK 
+emp_title_id VARCHAR FK - titles.title_id
+birth_date DATE
+first_name VARCHAR
+last_name VARCHAR
+gender VARCHAR
+hire_date DATE
+
+departments
+-
+dept_num VARCHAR PK
+dept_name VARCHAR
+
+titles
+-
+title_id VARCHAR PK
+title VARCHAR
+
+salaries
+-
+emp_num INT PK FK - employees.emp_num
+salary INT
