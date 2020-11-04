@@ -6,7 +6,7 @@ dept_num VARCHAR PK FK - departments.dept_num
 dept_emp
 -
 dept_num VARCHAR PK FK - departments.dept_num
-emp_num VARCHAR PK FK - employees.emp_num
+emp_num INT PK FK - employees.emp_num
 
 employees
 -
