@@ -1,12 +1,14 @@
 dept_manager
 -
-emp_num INT PK FK - employees.emp_num
 dept_num VARCHAR PK FK - departments.dept_num
+emp_num INT PK FK - employees.emp_num
+
 
 dept_emp
 -
-dept_num VARCHAR PK FK - departments.dept_num
 emp_num INT PK FK - employees.emp_num
+dept_num VARCHAR PK FK - departments.dept_num
+
 
 employees
 -
