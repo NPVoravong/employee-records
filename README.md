@@ -2,7 +2,7 @@
 
 Using the provided CSVs create a database and explore the data.
 
-I'm interested in the following questions:
+I'm interested in the following topics:
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 2. List first name, last name, and hire date for employees who were hired in 1986.
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
