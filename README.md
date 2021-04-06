@@ -17,6 +17,7 @@ I'm interested in the following topics:
 ## Tools
 - pgAdmin
 - [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com)
+- Visual Studio Code
 
 ### Entity Relationship Document (ERD)
 To ensure that the six different tables are linked properly an ERD is needed. It will ensure that the primary key relationships for the SQL database will function as needed. In some cases the tables cannot be referenced directly. To solve this a junction table is used.
